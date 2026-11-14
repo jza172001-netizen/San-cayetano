@@ -1,92 +1,559 @@
 {
-  "negocio": {
-    "nombre": "San Cayetano",
-    "whatsapp": "573104929770",
-    "telefonoDomicilios": "313 721 3390",
-    "lugar": "Mall La Cúpula",
-    "direccion": "[DIRECCIÓN / LOCAL]",
-    "horario": "[HORARIO DE ATENCIÓN]"
+ "negocio": {
+  "nombre": "San Cayetano",
+  "whatsapp": "573104929770",
+  "telefonoDomicilios": "313 721 3390",
+  "lugar": "Mall La Cúpula",
+  "direccion": "[DIRECCIÓN / LOCAL]",
+  "horario": "[HORARIO DE ATENCIÓN]",
+  "notaFotos": "Algunas fotos son de referencia."
+ },
+ "categorias": [
+  {
+   "id": "hamburguesas",
+   "nombre": "Hamburguesas",
+   "lema": "Que te harán volver",
+   "pre": "Hamburguesa",
+   "foto": "img/cayetana.webp",
+   "items": [
+    {
+     "n": "Cayetana",
+     "d": "Carne artesanal de res, pan artesanal, tocineta, queso asado, lechuga, tomate, aguacate y aros de cebolla",
+     "p": [
+      27000
+     ],
+     "foto": "img/cayetana.webp",
+     "tag": "La de la casa"
+    },
+    {
+     "n": "Pulled pork",
+     "d": "Carne de cerdo desmechada, pan artesanal, tocineta, queso asado, lechuga, tomate y cebolla BBQ",
+     "p": [
+      27000
+     ],
+     "foto": "img/pulled.webp",
+     "tag": "Favorita"
+    },
+    {
+     "n": "De la casa",
+     "d": "Carne artesanal de res, pan artesanal, doble queso, tocineta, jamón, lechuga, tomate, cebolla blanca y pepinillo",
+     "p": [
+      27000
+     ],
+     "foto": "img/burger-carta.webp"
+    },
+    {
+     "n": "Especial",
+     "d": "Carne artesanal, lechuga, ensalada dulce, ripio de papa, tomate, pepino, cebolla grillé, queso, tocineta y salsas",
+     "p": [
+      22000
+     ]
+    },
+    {
+     "n": "Mexicana",
+     "d": "Carne artesanal, queso, tocineta, lechuga, tomate, cebolla blanca, aguacate y jalapeños",
+     "p": [
+      22000
+     ]
+    },
+    {
+     "n": "A caballo",
+     "d": "Carne artesanal, queso, tocineta, huevo frito, hogao, lechuga, tomate y cebolla blanca",
+     "p": [
+      22000
+     ]
+    },
+    {
+     "n": "Americana",
+     "d": "Carne artesanal, lechuga, tomate, cebolla blanca, tocineta y queso",
+     "p": [
+      20000
+     ]
+    },
+    {
+     "n": "Vegetariana",
+     "d": "Proteína vegetal de garbanzo, queso, aguacate, lechuga, tomate, cebolla y ripio de papa",
+     "p": [
+      22000
+     ]
+    },
+    {
+     "n": "Sencilla",
+     "d": "Carne artesanal, ripio de papa, lechuga, ensalada dulce, tomate y salsas",
+     "p": [
+      16000
+     ]
+    }
+   ]
   },
-  "categorias": [
-    { "id": "hamburguesas", "nombre": "Hamburguesas", "lema": "Que te harán volver", "pre": "Hamburguesa", "foto": "img/cayetana.webp", "icono": "burger", "items": [
-      { "n": "Cayetana", "d": "Carne artesanal de res, pan artesanal, tocineta, queso asado, lechuga, tomate, aguacate y aros de cebolla", "p": [27000], "foto": "img/cayetana.webp", "tag": "La de la casa" },
-      { "n": "Pulled pork", "d": "Carne de cerdo desmechada, pan artesanal, tocineta, queso asado, lechuga, tomate y cebolla BBQ", "p": [27000], "foto": "img/pulled.webp", "tag": "Favorita" },
-      { "n": "De la casa", "d": "Carne artesanal de res, pan artesanal, doble queso, tocineta, jamón, lechuga, tomate, cebolla blanca y pepinillo", "p": [27000] },
-      { "n": "Especial", "d": "Carne artesanal, lechuga, ensalada dulce, ripio de papa, tomate, pepino, cebolla grillé, queso, tocineta y salsas", "p": [22000] },
-      { "n": "Mexicana", "d": "Carne artesanal, queso, tocineta, lechuga, tomate, cebolla blanca, aguacate y jalapeños", "p": [22000] },
-      { "n": "A caballo", "d": "Carne artesanal, queso, tocineta, huevo frito, hogao, lechuga, tomate y cebolla blanca", "p": [22000] },
-      { "n": "Americana", "d": "Carne artesanal, lechuga, tomate, cebolla blanca, tocineta y queso", "p": [20000] },
-      { "n": "Vegetariana", "d": "Proteína vegetal de garbanzo, queso, aguacate, lechuga, tomate, cebolla y ripio de papa", "p": [22000] },
-      { "n": "Sencilla", "d": "Carne artesanal, ripio de papa, lechuga, ensalada dulce, tomate y salsas", "p": [16000] }
-    ]},
-    { "id": "arepas-rellenas", "nombre": "Arepas rellenas", "lema": "De pura felicidad", "pre": "Arepa rellena", "foto": "img/arepas.webp", "icono": "arepa", "items": [
-      { "n": "Montañera", "d": "Carne, plátano maduro, chicharrón, aguacate, guacamole, hogao y queso", "p": [18000], "foto": "img/arepas.webp", "tag": "Recomendada" },
-      { "n": "Cerdo BBQ", "d": "Carne desmechada de cerdo, tocineta, guacamole, hogao y queso", "p": [18000], "foto": "img/arepas.webp" },
-      { "n": "Marinera", "d": "Camarón, palmitos, cebolla blanca, tomate, aguacate y queso mozzarella", "p": [20000], "foto": "img/arepas.webp" },
-      { "n": "Mixta", "d": "Carne molida de res, pollo desmechado, maicitos, chorizo, guacamole, hogao y queso", "p": [18000] }
-    ]},
-    { "id": "arepas-patacones", "nombre": "Arepas y patacones", "lema": "Vos elegís la base", "pre": "", "labels": ["Arepa", "Patacón"], "icono": "arepa", "items": [
-      { "n": "Paisa", "d": "Carne molida, chorizo, chicharrón, plátano maduro, hogao, guacamole y salsa rosada", "p": [18000, 27000] },
-      { "n": "Mixta", "d": "Carne molida, pollo desmechado, queso, guacamole, hogao y salsa rosada", "p": [18000, 25000] },
-      { "n": "Ranchera", "d": "Carne molida, maicitos, salchicha ranchera, queso, guacamole, hogao y salsa rosada", "p": [18000, 23000] },
-      { "n": "Chipotle", "d": "Carne molida, chorizo, jalapeños, aguacate, queso, hogao, guacamole y salsa rosada", "p": [18000, 25000] },
-      { "n": "Callejera", "d": "Carne desmechada de cerdo, ripio de papa, tocineta, guacamole, hogao y queso", "p": [18000, 23000] },
-      { "n": "Marinera", "d": "Camarón, palmitos, calamar, cebolla blanca, tomate, salsa marinera y queso parmesano", "p": [20000, 27000] }
-    ]},
-    { "id": "papas", "nombre": "Papas", "lema": "Para picar", "pre": "", "foto": "img/papas.webp", "icono": "fries", "items": [
-      { "n": "Papas caprichosas", "d": "Carne desmechada de cerdo, queso y pico de gallo", "p": [22000], "foto": "img/papas.webp", "tag": "Para compartir" },
-      { "n": "Salchipapas", "d": "Salchicha tradicional y huevos de codorniz", "p": [14000] },
-      { "n": "Choripapas", "d": "Con chorizo casero", "p": [16000] },
-      { "n": "Papas mixtas", "d": "Salchicha y chorizo casero", "p": [20000] },
-      { "n": "Ballena", "d": "Butifarra, longaniza, chorizo y salchicha", "p": [25000] }
-    ]},
-    { "id": "perros", "nombre": "Perros", "lema": "Bien cargados", "pre": "Perro", "icono": "hotdog", "items": [
-      { "n": "Especial", "d": "Salchicha tipo americana, cebolla grillé, ensalada dulce, ripio de papa, queso, tocineta, huevos de codorniz y papas fritas", "p": [18000] },
-      { "n": "Suizo", "d": "Longaniza, cebolla grillé, ripio de papa, queso, tocineta, salsas, huevos de codorniz y papas fritas", "p": [20000] },
-      { "n": "Perra", "d": "Tocineta, ensalada dulce, cebolla grillé, ripio de papa, queso, salsas, huevos de codorniz y papas fritas", "p": [18000] },
-      { "n": "Sencillo", "d": "Salchicha tipo americana, ensalada dulce, ripio de papa, queso, salsas y papas fritas", "p": [15000] }
-    ]},
-    { "id": "sandwich", "nombre": "Sándwich", "lema": "En pan artesanal", "pre": "Sándwich", "icono": "sandwich", "items": [
-      { "n": "Pulled pork", "d": "Carne de cerdo desmechada, queso, salchicha ranchera, lechuga, tomate y cebolla grillé", "p": [25000] },
-      { "n": "Costilla BBQ", "d": "Costilla desmechada, tocineta, aros de cebolla, queso, lechuga, tomate y salsa picante de la casa", "p": [23000] },
-      { "n": "Pollo", "d": "Trozos de pollo, salami, lechuga, tomate, cebolla grillé y queso", "p": [22000] },
-      { "n": "Cerdo", "d": "Carne de cerdo, jamón, lechuga, tomate, cebolla blanca y queso", "p": [22000] },
-      { "n": "Vegetariano", "d": "Proteína de garbanzo, queso, lechuga, tomate, aguacate y cebolla blanca", "p": [18000] },
-      { "n": "Sencillo", "d": "Pan artesanal, jamón, queso, lechuga y tomate", "p": [15000] }
-    ]},
-    { "id": "maicitos", "nombre": "Maicitos", "lema": "Gratinados", "pre": "Maicitos", "icono": "corn", "items": [
-      { "n": "Quesudos", "d": "Maicitos gratinados en una mezcla de tres quesos: americano, mozzarella y parmesano", "p": [16000] },
-      { "n": "Pollo y tocineta", "d": "Maicitos gratinados con pollo, tocineta y queso parmesano", "p": [20000] }
-    ]},
-    { "id": "creps", "nombre": "Creps", "lema": "Con salsa bechamel", "pre": "Crep", "icono": "crep", "items": [
-      { "n": "Pollo y champiñones", "d": "Champiñones salteados, trozos de pollo, salsa bechamel, queso y pan", "p": [20000] },
-      { "n": "Mixto", "d": "Carne de cerdo y pollo en julianas, salsa bechamel, queso y pan", "p": [24000] },
-      { "n": "Oriental", "d": "Vegetales salteados, carne de cerdo en julianas, salsa bechamel, queso y pan", "p": [23000] },
-      { "n": "Pollo", "d": "Trozos de pechuga de pollo bañados en salsa bechamel, queso y pan", "p": [15000] },
-      { "n": "Vegetariano", "d": "Champiñones y vegetales salteados, salsa bechamel, queso y pan", "p": [16000] }
-    ]},
-    { "id": "lasanas", "nombre": "Lasañas", "lema": "Dos tamaños", "pre": "Lasaña", "labels": ["Pequeña", "Grande"], "icono": "lasagna", "items": [
-      { "n": "Pollo", "d": "", "p": [27000, 32000] },
-      { "n": "Mixta", "d": "", "p": [27000, 32000] },
-      { "n": "Pollo y champiñones", "d": "", "p": [27000, 32000] }
-    ]},
-    { "id": "parrilla", "nombre": "Parrilla", "lema": "Al carbón", "pre": "", "icono": "grill", "items": [
-      { "n": "Picada familiar", "d": "Para 4 personas", "p": [85000], "tag": "Para el parche" },
-      { "n": "Media picada", "d": "Para 2 personas", "p": [45000] },
-      { "n": "Solomo", "d": "", "p": [35000] },
-      { "n": "Cañón de cerdo", "d": "", "p": [31000] },
-      { "n": "Cañón de cerdo en salsa de champiñones", "d": "", "p": [37000] },
-      { "n": "Pechuga a la plancha", "d": "", "p": [30000] },
-      { "n": "Pechuga en salsa de champiñones", "d": "", "p": [37000] },
-      { "n": "Chuzo de pollo", "d": "", "p": [24000] },
-      { "n": "Chorizo", "d": "", "p": [20000] }
-    ]},
-    { "id": "tipico", "nombre": "Menú típico", "lema": "Sabor de la casa", "pre": "", "icono": "bowl", "items": [
-      { "n": "Menú del día", "d": "Sopa del día, arroz, proteína a elección, ensalada, papas a la francesa, arepa y jugo del día", "p": [22000] },
-      { "n": "Bandeja paisa", "d": "Fríjol, chicharrón, chorizo, carne molida, arroz, huevo, tajada de maduro, arepa y ensalada", "p": [36000] },
-      { "n": "Bandeja sencilla", "d": "Fríjol, proteína, arroz, ensalada, tajada de maduro, huevo, arepa y jugo del día", "p": [24000] },
-      { "n": "Cazuela antioqueña", "d": "Fríjol, chorizo, chicharrón, ripio de papa, hogao y maduro, con ensalada, arroz y aguacate", "p": [30000] },
-      { "n": "Cazuela ranchera", "d": "Fríjol, maicitos, chorizo, salchicha ranchera, ripio de papa y hogao, con ensalada, arroz y aguacate", "p": [30000] }
-    ]}
-  ]
+  {
+   "id": "arepas-rellenas",
+   "nombre": "Arepas rellenas",
+   "lema": "De pura felicidad",
+   "pre": "Arepa rellena",
+   "foto": "img/arepas.webp",
+   "items": [
+    {
+     "n": "Montañera",
+     "d": "Carne, plátano maduro, chicharrón, aguacate, guacamole, hogao y queso",
+     "p": [
+      18000
+     ],
+     "foto": "img/arepas.webp",
+     "tag": "Recomendada"
+    },
+    {
+     "n": "Cerdo BBQ",
+     "d": "Carne desmechada de cerdo, tocineta, guacamole, hogao y queso",
+     "p": [
+      18000
+     ],
+     "foto": "img/arepas.webp"
+    },
+    {
+     "n": "Marinera",
+     "d": "Camarón, palmitos, cebolla blanca, tomate, aguacate y queso mozzarella",
+     "p": [
+      20000
+     ],
+     "foto": "img/arepas.webp"
+    },
+    {
+     "n": "Mixta",
+     "d": "Carne molida de res, pollo desmechado, maicitos, chorizo, guacamole, hogao y queso",
+     "p": [
+      18000
+     ],
+     "foto": "img/arepas-carta.webp"
+    }
+   ]
+  },
+  {
+   "id": "arepas-patacones",
+   "nombre": "Arepas y patacones",
+   "lema": "Vos elegís la base",
+   "pre": "",
+   "labels": [
+    "Arepa",
+    "Patacón"
+   ],
+   "items": [
+    {
+     "n": "Paisa",
+     "d": "Carne molida, chorizo, chicharrón, plátano maduro, hogao, guacamole y salsa rosada",
+     "p": [
+      18000,
+      27000
+     ]
+    },
+    {
+     "n": "Mixta",
+     "d": "Carne molida, pollo desmechado, queso, guacamole, hogao y salsa rosada",
+     "p": [
+      18000,
+      25000
+     ]
+    },
+    {
+     "n": "Ranchera",
+     "d": "Carne molida, maicitos, salchicha ranchera, queso, guacamole, hogao y salsa rosada",
+     "p": [
+      18000,
+      23000
+     ]
+    },
+    {
+     "n": "Chipotle",
+     "d": "Carne molida, chorizo, jalapeños, aguacate, queso, hogao, guacamole y salsa rosada",
+     "p": [
+      18000,
+      25000
+     ]
+    },
+    {
+     "n": "Callejera",
+     "d": "Carne desmechada de cerdo, ripio de papa, tocineta, guacamole, hogao y queso",
+     "p": [
+      18000,
+      23000
+     ]
+    },
+    {
+     "n": "Marinera",
+     "d": "Camarón, palmitos, calamar, cebolla blanca, tomate, salsa marinera y queso parmesano",
+     "p": [
+      20000,
+      27000
+     ],
+     "foto": "img/patacones.webp"
+    }
+   ],
+   "foto": "img/patacones.webp"
+  },
+  {
+   "id": "papas",
+   "nombre": "Papas",
+   "lema": "Para picar",
+   "pre": "",
+   "foto": "img/papas.webp",
+   "items": [
+    {
+     "n": "Papas caprichosas",
+     "d": "Carne desmechada de cerdo, queso y pico de gallo",
+     "p": [
+      22000
+     ],
+     "foto": "img/papas.webp",
+     "tag": "Para compartir"
+    },
+    {
+     "n": "Salchipapas",
+     "d": "Salchicha tradicional y huevos de codorniz",
+     "p": [
+      14000
+     ],
+     "foto": "img/salchipapa.webp"
+    },
+    {
+     "n": "Choripapas",
+     "d": "Con chorizo casero",
+     "p": [
+      16000
+     ]
+    },
+    {
+     "n": "Papas mixtas",
+     "d": "Salchicha y chorizo casero",
+     "p": [
+      20000
+     ]
+    },
+    {
+     "n": "Ballena",
+     "d": "Butifarra, longaniza, chorizo y salchicha",
+     "p": [
+      25000
+     ]
+    }
+   ]
+  },
+  {
+   "id": "perros",
+   "nombre": "Perros",
+   "lema": "Bien cargados",
+   "pre": "Perro",
+   "items": [
+    {
+     "n": "Especial",
+     "d": "Salchicha tipo americana, cebolla grillé, ensalada dulce, ripio de papa, queso, tocineta, huevos de codorniz y papas fritas",
+     "p": [
+      18000
+     ],
+     "foto": "img/perros.webp"
+    },
+    {
+     "n": "Suizo",
+     "d": "Longaniza, cebolla grillé, ripio de papa, queso, tocineta, salsas, huevos de codorniz y papas fritas",
+     "p": [
+      20000
+     ]
+    },
+    {
+     "n": "Perra",
+     "d": "Tocineta, ensalada dulce, cebolla grillé, ripio de papa, queso, salsas, huevos de codorniz y papas fritas",
+     "p": [
+      18000
+     ]
+    },
+    {
+     "n": "Sencillo",
+     "d": "Salchicha tipo americana, ensalada dulce, ripio de papa, queso, salsas y papas fritas",
+     "p": [
+      15000
+     ]
+    }
+   ],
+   "foto": "img/perros.webp"
+  },
+  {
+   "id": "sandwich",
+   "nombre": "Sándwich",
+   "lema": "En pan artesanal",
+   "pre": "Sándwich",
+   "items": [
+    {
+     "n": "Pulled pork",
+     "d": "Carne de cerdo desmechada, queso, salchicha ranchera, lechuga, tomate y cebolla grillé",
+     "p": [
+      25000
+     ],
+     "foto": "img/sandwich.webp"
+    },
+    {
+     "n": "Costilla BBQ",
+     "d": "Costilla desmechada, tocineta, aros de cebolla, queso, lechuga, tomate y salsa picante de la casa",
+     "p": [
+      23000
+     ]
+    },
+    {
+     "n": "Pollo",
+     "d": "Trozos de pollo, salami, lechuga, tomate, cebolla grillé y queso",
+     "p": [
+      22000
+     ]
+    },
+    {
+     "n": "Cerdo",
+     "d": "Carne de cerdo, jamón, lechuga, tomate, cebolla blanca y queso",
+     "p": [
+      22000
+     ]
+    },
+    {
+     "n": "Vegetariano",
+     "d": "Proteína de garbanzo, queso, lechuga, tomate, aguacate y cebolla blanca",
+     "p": [
+      18000
+     ]
+    },
+    {
+     "n": "Sencillo",
+     "d": "Pan artesanal, jamón, queso, lechuga y tomate",
+     "p": [
+      15000
+     ]
+    }
+   ],
+   "foto": "img/sandwich.webp"
+  },
+  {
+   "id": "maicitos",
+   "nombre": "Maicitos",
+   "lema": "Gratinados",
+   "pre": "Maicitos",
+   "items": [
+    {
+     "n": "Quesudos",
+     "d": "Maicitos gratinados en una mezcla de tres quesos: americano, mozzarella y parmesano",
+     "p": [
+      16000
+     ],
+     "foto": "img/maicitos.webp"
+    },
+    {
+     "n": "Pollo y tocineta",
+     "d": "Maicitos gratinados con pollo, tocineta y queso parmesano",
+     "p": [
+      20000
+     ]
+    }
+   ],
+   "foto": "img/maicitos.webp"
+  },
+  {
+   "id": "creps",
+   "nombre": "Creps",
+   "lema": "Con salsa bechamel",
+   "pre": "Crep",
+   "items": [
+    {
+     "n": "Pollo y champiñones",
+     "d": "Champiñones salteados, trozos de pollo, salsa bechamel, queso y pan",
+     "p": [
+      20000
+     ]
+    },
+    {
+     "n": "Mixto",
+     "d": "Carne de cerdo y pollo en julianas, salsa bechamel, queso y pan",
+     "p": [
+      24000
+     ],
+     "foto": "img/crep.webp"
+    },
+    {
+     "n": "Oriental",
+     "d": "Vegetales salteados, carne de cerdo en julianas, salsa bechamel, queso y pan",
+     "p": [
+      23000
+     ]
+    },
+    {
+     "n": "Pollo",
+     "d": "Trozos de pechuga de pollo bañados en salsa bechamel, queso y pan",
+     "p": [
+      15000
+     ]
+    },
+    {
+     "n": "Vegetariano",
+     "d": "Champiñones y vegetales salteados, salsa bechamel, queso y pan",
+     "p": [
+      16000
+     ]
+    }
+   ],
+   "foto": "img/crep.webp"
+  },
+  {
+   "id": "lasanas",
+   "nombre": "Lasañas",
+   "lema": "Dos tamaños",
+   "pre": "Lasaña",
+   "labels": [
+    "Pequeña",
+    "Grande"
+   ],
+   "items": [
+    {
+     "n": "Pollo",
+     "d": "",
+     "p": [
+      27000,
+      32000
+     ]
+    },
+    {
+     "n": "Mixta",
+     "d": "",
+     "p": [
+      27000,
+      32000
+     ],
+     "foto": "img/lasana.webp"
+    },
+    {
+     "n": "Pollo y champiñones",
+     "d": "",
+     "p": [
+      27000,
+      32000
+     ]
+    }
+   ],
+   "foto": "img/lasana.webp"
+  },
+  {
+   "id": "parrilla",
+   "nombre": "Parrilla",
+   "lema": "Al carbón",
+   "pre": "",
+   "items": [
+    {
+     "n": "Picada familiar",
+     "d": "Para 4 personas",
+     "p": [
+      85000
+     ],
+     "foto": "img/parrilla.webp",
+     "tag": "Para el parche"
+    },
+    {
+     "n": "Media picada",
+     "d": "Para 2 personas",
+     "p": [
+      45000
+     ]
+    },
+    {
+     "n": "Solomo",
+     "d": "",
+     "p": [
+      35000
+     ],
+     "foto": "img/solomo.webp"
+    },
+    {
+     "n": "Cañón de cerdo",
+     "d": "",
+     "p": [
+      31000
+     ]
+    },
+    {
+     "n": "Cañón de cerdo en salsa de champiñones",
+     "d": "",
+     "p": [
+      37000
+     ]
+    },
+    {
+     "n": "Pechuga a la plancha",
+     "d": "",
+     "p": [
+      30000
+     ]
+    },
+    {
+     "n": "Pechuga en salsa de champiñones",
+     "d": "",
+     "p": [
+      37000
+     ]
+    },
+    {
+     "n": "Chuzo de pollo",
+     "d": "",
+     "p": [
+      24000
+     ]
+    },
+    {
+     "n": "Chorizo",
+     "d": "",
+     "p": [
+      20000
+     ]
+    }
+   ],
+   "foto": "img/parrilla.webp"
+  },
+  {
+   "id": "tipico",
+   "nombre": "Menú típico",
+   "lema": "Sabor de la casa",
+   "pre": "",
+   "items": [
+    {
+     "n": "Menú del día",
+     "d": "Sopa del día, arroz, proteína a elección, ensalada, papas a la francesa, arepa y jugo del día",
+     "p": [
+      22000
+     ]
+    },
+    {
+     "n": "Bandeja paisa",
+     "d": "Fríjol, chicharrón, chorizo, carne molida, arroz, huevo, tajada de maduro, arepa y ensalada",
+     "p": [
+      36000
+     ],
+     "foto": "img/bandeja.webp",
+     "tag": "Tradición paisa"
+    },
+    {
+     "n": "Bandeja sencilla",
+     "d": "Fríjol, proteína, arroz, ensalada, tajada de maduro, huevo, arepa y jugo del día",
+     "p": [
+      24000
+     ]
+    },
+    {
+     "n": "Cazuela antioqueña",
+     "d": "Fríjol, chorizo, chicharrón, ripio de papa, hogao y maduro, con ensalada, arroz y aguacate",
+     "p": [
+      30000
+     ]
+    },
+    {
+     "n": "Cazuela ranchera",
+     "d": "Fríjol, maicitos, chorizo, salchicha ranchera, ripio de papa y hogao, con ensalada, arroz y aguacate",
+     "p": [
+      30000
+     ]
+    }
+   ],
+   "foto": "img/bandeja.webp"
+  }
+ ]
 }
